@@ -5,7 +5,7 @@
         <title>A Small Secret</title>
 
         <!-- adding style sheets -->
-        <link rel="stylesheet" href="StyleSheet.css"/>
+        <link rel="stylesheet" href="InfoStyleSheet.css"/>
 
         <!-- linking fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,14 +15,13 @@
         <!-- linking scripts -->
         <script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
         <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
-        <script type = "text/javascript" src = "MatrixJavaScript.js"></script>
     </head>
     <body>
         <div style="background-size:cover;">
             <nav>
                 <div class="left-links">
-                    <a class="links selected">MAIN</a>
-                    <a class="links" href="./info/info.html">INFO</a>
+                    <a class="links" href="../index.html">MAIN</a>
+                    <a class="links selected"><s>INFO</s></a>
                     <a class="links"><s>PORTFOLIO</s></a>
                 </div>
                 <div class="right-links">
@@ -32,25 +31,19 @@
                 </div>
             </nav>
         </div>
-        <section id="main" style="height: auto;">
+        <section id="info" style="    background-image: url('./background.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;">
             <div class="container">
-                <div class="bottom-left" style="display: block;">
-                    <h1 style="font-size: 10vw; color: transparent;-webkit-text-stroke: 0.09em #1f1f1f"><span>BRIANA</span></h1>
-                    <h1 style="font-size: 10vw; "><span><b>BURTON</b></span></h1>
-                    <div  style="padding-left: 1%;">
-                        <div class="infobox">
-                            <p class="mainHeading" style="margin-top:0.1vh; margin-left: 1vh;">
-                                <span class="secret" style="color: blue;"> ‏‏‎ ‎>> SO, WHO AM I?‏‏‎ ‎</span>  <span class="secret">LET'S FIND OUT!‏‏‎ ‎</span>
-                            </p>
-                            <p class="mainBody" style=" margin-left: 1vh; margin-bottom: 1vh; margin-right: 1vh;">
-                                >> I AM AN ASPIRING SOFTWARE DEV AND BRUTALISM ENTHUSIAST. I ALSO HAPPEN TO DISLIKE THE 16:9 
-                                ASPECT RATIO ON MONITORS, BUT 16:9 ON VIDEO I ENJOY.<b><a href="./info/info.html" style="color: blue;"> >> CLICK HERE << </a></b>TO LEARN MORE 
-                            </p>
-                        </div>
-                    </div>
-                    <div style="padding-bottom:1%"></div>
+                <div class="centered" style="width: 85%; text-align: center; display: block;">
+                    <h1 style="color: blue;text-shadow: 1.5vh 1.5vh #1d1d1d; font-size: 6vw;">UN<span style="color: #c0c0c0;">DER</span> CO<span style="color: #c0c0c0;">NSTRUCTION</span></h1>
+                    <p class="secretRev" style="font-size: 2vw;">
+                        <a href="../index.html" style="color: #c0c0c0;">>> RETURN BACK TO HOME PAGE <<</a>
+                    </p>
                 </div>
             </div>
         </section>
+        <!-- <section id="more">
+        </section> -->
     </body>
 </html>

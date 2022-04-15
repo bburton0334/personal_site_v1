@@ -45,7 +45,7 @@ nav {
     }
 
 .selected {
-    border-bottom: 4px solid blue;
+    border-bottom: 4px solid rgb(255, 255, 255);
 }
 /* ==== holds contents for NAV bar / MENU bar ==== */
 
@@ -197,4 +197,39 @@ h1 {
 /* Thick red border */
 hr.new4 {
     border: #1f1f1f;
+  }
+
+  .marquee {
+    width: 100%;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 61px;
+    background: #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+  }
+  
+  .marquee .text {
+    display: inline-block;
+    padding-left: 4.4rem;
+    text-indent: 0;
+    animation: marquee 12s linear infinite;
+    font-weight: 500;
+    font-size: 2.4rem;
+    line-height: 125%;
+    letter-spacing: -0.04em;
+    text-transform: uppercase;
+    color: #f2f2f2;
+  }
+  @keyframes marquee {
+    0% {
+      transform: translate(0, 0);
+    }
+  
+    100% {
+      transform: translate(-100%, 0);
+    }
   }

@@ -16,7 +16,7 @@ nav {
     position: auto;
     top: auto;
     width: 100%;
-    background-color: #1f1f1f;
+    background-color: #000000;
     overflow: auto;
     height: auto;
     z-index:1;
@@ -114,7 +114,7 @@ nav {
 /* ==== HOLDS THAT HAVE DO TO WITH CONTAINER . CENTER ==== */
 
 h1 {
-    color: #1f1f1f;
+    color: #c4c4c4;
     font-family: 'Stalinist One', sans-serif;
     font-weight: 400;
     letter-spacing: 0px;
@@ -173,15 +173,15 @@ h1 {
 
 .secret {
     font-weight: bold;
-    background-color: #1f1f1f;
+    background-color: #000000;
     color: #e0e0e0;
 
 }
 
 .secretRev {
     font-weight: bold;
-    background-color: #dedede;
-    color: #1f1f1f;
+    background-color: #000000;
+    color: #000000;
     width:inherit;
 }
 
@@ -190,7 +190,7 @@ h1 {
     font-weight: bolder;
     font-family: 'Tomorrow', monospace;
     font-weight: bold;
-    background-color: #1f1f1f;
+    background-color: #000000;
     color: #e0e0e0;
 }
 
@@ -216,13 +216,13 @@ hr.new4 {
     display: inline-block;
     padding-left: 4.4rem;
     text-indent: 0;
-    animation: marquee 12s linear infinite;
+    animation: marquee 22s linear infinite;
     font-weight: 500;
-    font-size: 2.4rem;
+    font-size: 2.1rem;
     line-height: 125%;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-    color: #f2f2f2;
+    color: #dbdbdb;
   }
   @keyframes marquee {
     0% {

@@ -6,12 +6,21 @@
 
 body{
     overflow: hidden;
-	height: 100%
+    position:relative;
+    margin: 0;
+    background-color: #000000;
+    height: 92vh;
 }
 
+/* section {
+    width: 100%;
+    height: 10vh;
+
+} */
 
 /* ==== holds contents for NAV bar / MENU bar ==== */
 nav {
+    border-bottom: 1px solid rgb(211, 211, 211);
     display: flex;
     position: auto;
     top: auto;
@@ -20,8 +29,10 @@ nav {
     overflow: auto;
     height: auto;
     z-index:1;
-    padding: 1.5vw;
+    padding: 0.8vw;
     text-align: justify;
+    position: fixed;
+    top: 0px;
 }
 
 .left-links {
@@ -36,17 +47,17 @@ nav {
     padding-right: 10px;
     color: rgb(211, 211, 211);
     text-decoration: none;
-    font-size: max(2vw, min(5vw, 25px));
+    font-size: max(1vw, min(4vw, 20px));
     font-weight: 100;
-    font-family: 'Tomorrow', monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 
     .links:hover {
-        border-bottom: 4px solid #e7e7e7;
+        border-bottom: 1px solid #e7e7e7;
     }
 
 .selected {
-    border-bottom: 4px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 /* ==== holds contents for NAV bar / MENU bar ==== */
 
@@ -189,11 +200,12 @@ h1 {
 .mainBody {
     font-size: 1.5vw;
     font-weight: bolder;
-    font-family: 'Tomorrow', monospace;
+    font-family: 'Roboto Mono', monospace;
     font-weight: bold;
     background-color: #000000;
-    color: #e0e0e0;
+    color: #a7a7a7;
     text-align: justify;
+
 }
 
 /* Thick red border */
@@ -206,12 +218,15 @@ hr.new4 {
     margin: 0 auto;
     white-space: nowrap;
     overflow: hidden;
-    height: 61px;
+    height: 54px;
     background: #000000;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     align-items: center;
+    position: fixed;
+    bottom: 0px;
+    border-top: 1px solid rgb(211, 211, 211);
   }
   
   .marquee .text {
@@ -220,7 +235,7 @@ hr.new4 {
     text-indent: 0;
     animation: marquee 22s linear infinite;
     font-weight: 500;
-    font-size: 2.1rem;
+    font-size: 1.5rem;
     line-height: 125%;
     letter-spacing: -0.04em;
     text-transform: uppercase;
@@ -235,3 +250,4 @@ hr.new4 {
       transform: translate(-100%, 0);
     }
   }
+

@@ -10,9 +10,7 @@ body{
     position:relative;
     margin: 0;
     color: #EDEDED;
-
     -webkit-font-smoothing: antialiased;
-
 }
 
 .css-selector {
@@ -42,17 +40,17 @@ body{
 
 
 /* ==== holds contents for NAV bar / MENU bar ==== */
+
 nav {
+    border-bottom: 1px solid rgb(211, 211, 211);
     display: flex;
-    position: auto;
-    top: auto;
     width: 100%;
-    background-color: #000000;
     overflow: auto;
     height: auto;
     z-index:1;
-    padding: 1.5vw;
+    padding: 0.8vw;
     text-align: justify;
+    background-color: #000000;
     position: fixed;
     top: 0px;
 }
@@ -69,17 +67,17 @@ nav {
     padding-right: 10px;
     color: rgb(211, 211, 211);
     text-decoration: none;
-    font-size: max(2vw, min(5vw, 25px));
+    font-size: max(1vw, min(4vw, 20px));
     font-weight: 100;
-    font-family: 'Tomorrow', monospace;
+    font-family: 'Roboto Mono', monospace;
 }
 
     .links:hover {
-        border-bottom: 4px solid #e7e7e7;
+        border-bottom: 1px solid #e7e7e7;
     }
 
 .selected {
-    border-bottom: 4px solid rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 /* ==== holds contents for NAV bar / MENU bar ==== */
 
@@ -102,12 +100,6 @@ nav {
     .container {
         width: 100%;
         height: 100%;
-    }
-
-    .header,
-    .footer {
-        padding: 10px 20px;
-        background: #f7f7f7;
     }
 
     .content-body {
@@ -154,7 +146,7 @@ h1 {
     /* border-style: solid; */
     line-height: 80%;
     font-size: 62.5%;
-    font-family: "Muli", "Helvetica Neue", "Arial", "sans-serif";
+    font-family: 'Space Mono';
     font-weight: 300;
 }
 
@@ -180,7 +172,7 @@ section {
 /* HEADER */
 .masthead {
     /* Layout declarations */
-    background: url("https://www.itl.cat/pngfile/big/286-2862102_black-wallpapers-for-facebook-cover.jpg") no-repeat fixed center;
+    background: url(../img/brut.jpg) no-repeat fixed center;
     background-size: cover;
     padding: 1em 2em;
     border-top: 0px solid #EDEDED;
@@ -194,6 +186,7 @@ section {
   
   .masthead-intro {
     margin: 2em 0 0 0;
+    font-family: 'VT323';
   }
   
   .masthead-heading {
@@ -220,13 +213,14 @@ section {
     /* can be treated like a fallback */
     background-color: #000000;;
     /* will be "on top", if browser supports it */
-    background-image: linear-gradient(#000000, #34354f);
+    background-image: linear-gradient(#000000, #3a3a3a);
   }
 
   /* The h2 tags are the main categories */
 h2 {
     /* Typography declarations */
     font-size: 4em;
+    font-family: 'Space Mono';
   }
   
   /* The h3 tags are the additional questions */
@@ -234,6 +228,7 @@ h2 {
     /* Typography declarations */
     font-style: italic;
     font-size: 2.5em;
+    font-family: 'Space Mono';
   }
   
   /* The p tags that are descendants of the section tags are the answers */
@@ -241,6 +236,9 @@ h2 {
     /* Typography declarations */
     font-size: 2em;
     line-height: 1.3em;
+    font-family: 'VT323';
+    text-align: justify;
+    color: #c4c4c4;
   }
   
   /* This class is included in the last p tag of each section to create more space */
@@ -260,7 +258,7 @@ hr.new4 {
     margin: 0 auto;
     white-space: nowrap;
     overflow: hidden;
-    height: 61px;
+    height: 54px;
     background: #000000;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -268,6 +266,7 @@ hr.new4 {
     align-items: center;
     position: fixed;
     bottom: 0px;
+    border-top: 1px solid rgb(211, 211, 211);
   }
   
   .marquee .text {
@@ -276,7 +275,7 @@ hr.new4 {
     text-indent: 0;
     animation: marquee 22s linear infinite;
     font-weight: 500;
-    font-size: 2.1rem;
+    font-size: 1.5rem;
     line-height: 125%;
     letter-spacing: -0.04em;
     text-transform: uppercase;
@@ -291,3 +290,52 @@ hr.new4 {
       transform: translate(-100%, 0);
     }
   }
+
+  .content-footer > p {
+    /* Layout declarations */
+    line-height: 1.3em;
+    text-align: center;
+    /* Typography declarations */
+    font-size: 2em;
+  }
+  
+  .social {
+    /* Layout declarations */
+    text-align: center;
+    padding: 0;
+  }
+  
+  .social > li {
+    /* Layout declarations */
+    display: inline-block;
+    line-height: 1.3em;
+    margin-right: 2em;
+    /* Typography declarations */
+    font-size: 2em;
+  }
+
+    /* FOOTER */
+    .content-footer {
+        font-family: 'VT323';
+        padding: 4em;
+        background-color: #000000;
+        padding-bottom: 8em;
+      }
+      
+      .social > li {
+      /* Layout declarations */
+      display: block;
+      margin-right: 0;
+      }
+      
+      .content-footer p a {
+        line-height: 0;
+      } 
+    
+    
+      /* FOOTER */
+    @media only screen and (max-width: 344px) {
+      .content-footer p a {
+        line-height: 3em;
+      }
+    }

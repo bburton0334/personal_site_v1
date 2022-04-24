@@ -8,8 +8,7 @@
 
         <!-- adding style sheets -->
         <link rel="stylesheet" href="StyleSheet.css"/>
-
-	    <style type="text/css">* {cursor: url(https://cur.cursors-4u.net/cursors/cur-10/cur952.ani), url(https://cur.cursors-4u.net/cursors/cur-10/cur952.png), auto !important;}</style><a href="https://www.cursors-4u.com/cursor/2011/12/26/batman-begins-precision-select.html" target="_blank" title="Batman Begins - Precision Select"><img 	src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Batman Begins - Precision Select" style="position:absolute; top: 0px; right: 0px;" /></a>
+        <link rel="stylesheet" href="crosshair.css"/>
 
         <!-- linking fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,9 +18,13 @@
         <script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
         <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
         <script type = "text/javascript" src = "MatrixJavaScript.js"></script>
+        <script type="text/javascript" src="crosshair.js"></script>
+        <script type='text/javascript' src='https://code.jquery.com/jquery-1.9.1.min.js'></script>
         
     </head>
     <body>
+        <div id="crosshair-h" class="hair"></div>
+        <div id="crosshair-v" class="hair"></div>
         <nav class="nav-bar">
             <div class="containerNew" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #a3a3a3;">
                 <input type="checkbox" id="drop-down-cbox"/>
@@ -49,6 +52,7 @@
                 
             </div>
         </nav>
+
         <!-- <div>
             <nav>
                 <div class="left-links">
@@ -104,9 +108,6 @@
                     Software Dev - Diet Coke Enthusiast - Computer Connoisseur
                 </h4>
             </span> -->
-        </section>
-        <section>
-
         </section>
     </body>
 </html>

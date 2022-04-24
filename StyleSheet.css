@@ -5,19 +5,18 @@
 }
 
 body{
-    overflow: hidden;
-    position:relative;
+    overflow-x: hidden;
+    /* position:relative; */
     margin: 0;
     background-color: #000000;
     /* height: 100%; */
-    margin-top: 60px; /*height of nav-bar*/
+    /* margin-top: 60px; height of nav-bar */
 }
 
-/* section {
+section {
     width: 100%;
-    height: 10vh;
-
-} */
+    height: 100%;
+}
 
 /* ==== holds contents for NAV bar / MENU bar ==== */
 .navVibe {
@@ -200,13 +199,11 @@ h1 {
 
 .mainBody {
     font-size: 1.5vw;
-    font-weight: bolder;
-    font-family: 'Roboto Mono', monospace;
-    font-weight: bold;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background-color: #000000;
     color: #a7a7a7;
     text-align: justify;
-
+    font-weight: bold;
 }
 
 /* Thick red border */
@@ -442,7 +439,7 @@ p {
 
 .main-nav li > ul li a,
 .main-nav li > ul li span {
-	background-color: white;
+	/* background-color: rgb(0, 0, 0); */
 }
 
 .main-nav li > ul li a:hover,
@@ -474,7 +471,7 @@ p {
 		left: 0;
 		width: 100%;
 		flex-direction: column;
-		background-color: white;
+		background-color: rgb(0, 0, 0);
 		transition: all 500ms ease-in-out;
 	}
 	
@@ -514,7 +511,7 @@ p {
 	
 	.main-nav li > ul li a,
 	.main-nav li > ul li span {
-		background-color: #eee;
+		background-color: rgb(0, 0, 0);
 	}
 	
 }

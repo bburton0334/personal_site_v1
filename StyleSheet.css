@@ -18,6 +18,21 @@ section {
     height: 100%;
 }
 
+
+.first-name{
+    font-size: 10vw;
+    color: #7a7a7a;
+    /* color: transparent;
+    -webkit-text-stroke: 0.01vw #7a7a7a; */
+    text-align: justify;
+}
+
+.last-name{
+    font-size: 10vw;
+    color: #7a7a7a;
+}
+
+
 /* ==== holds contents for NAV bar / MENU bar ==== */
 .navVibe {
     border-bottom: 1px solid rgb(211, 211, 211);
@@ -134,7 +149,13 @@ h1 {
     cursor: crosshair;
     /* border-style: solid; */
     line-height: 80%;
+    transition: color 2s ease-out 100ms
+    
 }
+
+h1:hover {
+    color: #7a7a7a;
+  }
 
 /* ==== holds contents for NAV bar / MENU bar ==== */
 .topbar {
@@ -199,11 +220,17 @@ h1 {
 }
 
 .mainBody {
-    font-size: 1.5vw;
+    font-size: 5vw;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #a7a7a7;
+    color: #7a7a7a;
     text-align: justify;
     font-weight: bold;
+    font-weight: bolder;
+}
+
+hr {
+    color:#7a7a7a;
+    border-color: #7a7a7a;
 }
 
 /* Thick red border */
@@ -312,6 +339,7 @@ p {
 	text-transform: uppercase;
 	letter-spacing: 0.8rem;
 	margin: 0 1rem;
+    color: #7a7a7a;
 }
 
 /* --- Elements --- */

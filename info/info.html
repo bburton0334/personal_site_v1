@@ -8,6 +8,7 @@
 
         <!-- adding style sheets -->
         <link rel="stylesheet" href="InfoStyleSheet.css"/>
+        <link rel="stylesheet" href="../NavBar.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
 
         <!-- linking fonts -->
@@ -20,20 +21,33 @@
         <script src="https://cdn.jsdelivr.net/npm/p5@1.4.1/lib/p5.js"></script>
     </head>
     <body>
-        <div style="background-size:cover; ">
-            <nav>
-                <div class="left-links">
-                    <a class="links" href="../index.html">MAIN</a>
-                    <a class="links selected">INFO</a>
-                    <a class="links"><s>PORTFOLIO</s></a>
-                </div>
-                <div class="right-links">
-                    <a class="links" style="color: #a7a7a7; " ><s>OTHER...</s></a>
-                    <a class="links" style="color: #a7a7a7; " href="https://www.linkedin.com/in/briana-burton/">LINKEDIN</a>
-                    <a class="links" style="color: #a7a7a7; " href="https://github.com/bburton0334">GITHUB</a>
-                </div>
-            </nav>
-        </div>
+        <nav class="nav-bar">
+            <div class="containerNew" style="font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; color: #a3a3a3;">
+                <input type="checkbox" id="drop-down-cbox"/>
+                <label for="drop-down-cbox">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                
+                <h1 class="site-logo" style="color: #a3a3a3;">Briana.cc</h1>
+        
+                <ul class="main-nav small-caps">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="./info.html">About</a></li>
+                    <li><span>List of Work</span>
+                        <ul>
+                            <li><a href="https://github.com/bburton0334">Github</a></li>
+                        </ul>
+                    </li>
+                    <li><span>Contact</span>
+                        <ul>
+                            <li><a href="https://linkedin.com/in/briana-burton">LinkedIn</a></li>
+                        </ul>
+                </ul>
+                
+            </div>
+        </nav>
 
         <!-- Header (SECTION 1/3) -->
         <header class="masthead">
@@ -67,7 +81,7 @@
   <p>Ius postulant petentium at, ancillae delicata interpretaris in vis, ei eos suscipit nominati quaerendum. Quo ne tota ludus vivendum. An usu noluisse delicata, delectus petentium et eum.</p>
 </section> -->
 </div>
-<section class="marquee">
+<!-- <section class="marquee">
     <h4 class="text">
         Software Dev - Diet Coke Enthusiast - Computer Connoisseur
     </h4>
@@ -89,7 +103,7 @@
     <h4 class="text">
         Software Dev - Diet Coke Enthusiast - Computer Connoisseur
     </h4>
-  </section>
+  </section> -->
 
   <!-- Footer (SECTION 3/3) -->
 <footer class="content-footer">

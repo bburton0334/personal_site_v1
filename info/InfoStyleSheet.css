@@ -41,7 +41,7 @@ body{
 
 /* ==== holds contents for NAV bar / MENU bar ==== */
 
-nav {
+navNew {
     border-bottom: 1px solid rgb(211, 211, 211);
     display: flex;
     width: 100%;
@@ -319,7 +319,6 @@ hr.new4 {
         font-family: 'VT323';
         padding: 4em;
         background-color: #000000;
-        padding-bottom: 8em;
       }
       
       .social > li {

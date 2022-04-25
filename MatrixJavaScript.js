@@ -24,7 +24,7 @@ class Char {
 		const flick = random(100);
 		// 10 percent chance of flickering a number instead
 		if (flick < 10) {
-			fill(0, 0, 10);
+			fill(0, 0, 8);
 			text(round(random(9)), this.x, this.y);
 		} else {
 			text(this.value, this.x, this.y);
@@ -50,15 +50,15 @@ class Stream {
 	}
 
 	draw() {
-		fill(0, 0, 10);
+		fill(0, 0, 8);
 		this.chars.forEach((c, i) => {
 			// 30 percent chance of lit tail
 			const lit = random(100);
 			if (lit < 30) {
 				if (i === this.chars.length - 1) {
-					fill(0, 0, 10);
+					fill(0, 0, 8);
 				} else {
-					fill(0, 0, 10);
+					fill(0, 0, 8);
 				}
 			}
 
@@ -91,7 +91,7 @@ function setup() {
 }
 
 function draw() {
-	background(0, 0.4);
+	background(5, 0.4);
 	streams.forEach((s) => s.draw());
 }
 

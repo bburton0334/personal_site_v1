@@ -60,14 +60,16 @@ p {
 	text-transform: uppercase;
 	letter-spacing: 0.8rem;
 	margin: 0 1rem;
+	font-family: 'Stalinist One', sans-serif;
 }
 
 /* --- Elements --- */
 
 
 .containerNew {
-	max-width: 97.2vw; /* max 'width' of contents of site */
+	max-width: 93vw; /* max 'width' of contents of site */
 	margin: 0 auto; /* centered horizontally  */
+	margin-top: 2vh;
 }
 
 .nav-bar {

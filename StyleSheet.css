@@ -201,7 +201,6 @@ h1 {
 .mainBody {
     font-size: 1.5vw;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-color: #000000;
     color: #a7a7a7;
     text-align: justify;
     font-weight: bold;
@@ -319,8 +318,9 @@ p {
 
 
 .containerNew {
-	max-width: 97.2vw; /* max 'width' of contents of site */
+	max-width: 93vw; /* max 'width' of contents of site */
 	margin: 0 auto; /* centered horizontally  */
+    margin-top: 2vh;
 }
 
 .nav-bar {

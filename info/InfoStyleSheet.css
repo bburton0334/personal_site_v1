@@ -172,7 +172,7 @@ section {
 /* HEADER */
 .masthead {
     /* Layout declarations */
-    background: url(../img/brut.jpg) no-repeat fixed center;
+    background: url(../img/BANNER.jpg) no-repeat fixed center;
     background-size: cover;
     padding: 1em 2em;
     border-top: 0px solid #EDEDED;
@@ -186,15 +186,21 @@ section {
   
   .masthead-intro {
     margin: 2em 0 0 0;
-    font-family: 'VT323';
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #7a7a7a;
+    font-weight: bold;
   }
   
   .masthead-heading {
     /* Typography declarations */
     font-size: 10rem;
     /* Layout declarations */
+    font-family: 'Stalinist One', sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #7a7a7a;
     padding: 0;
     margin: 0 0 1em;
+    font-weight: bolder;
   }
 
   /* BODY */
@@ -213,14 +219,15 @@ section {
     /* can be treated like a fallback */
     background-color: #000000;;
     /* will be "on top", if browser supports it */
-    background-image: linear-gradient(#000000, #3a3a3a);
+    background-image: linear-gradient(#0d0d0d, #0d0d0d);
   }
 
   /* The h2 tags are the main categories */
 h2 {
     /* Typography declarations */
     font-size: 4em;
-    font-family: 'Space Mono';
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #7a7a7a;
   }
   
   /* The h3 tags are the additional questions */
@@ -228,17 +235,18 @@ h2 {
     /* Typography declarations */
     font-style: italic;
     font-size: 2.5em;
-    font-family: 'Space Mono';
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #7a7a7a;
   }
   
   /* The p tags that are descendants of the section tags are the answers */
   section p {
     /* Typography declarations */
-    font-size: 2em;
+    font-size: 1.8em;
     line-height: 1.3em;
-    font-family: 'VT323';
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-align: justify;
-    color: #c4c4c4;
+    color: #7a7a7a;
   }
   
   /* This class is included in the last p tag of each section to create more space */
@@ -312,13 +320,16 @@ hr.new4 {
     margin-right: 2em;
     /* Typography declarations */
     font-size: 2em;
+    font-weight: bolder;
+    color: #0d0d0d;
   }
 
     /* FOOTER */
     .content-footer {
-        font-family: 'VT323';
+        font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
         padding: 4em;
-        background-color: #000000;
+        color: #0d0d0d;
+        background-color: #7a7a7a;
       }
       
       .social > li {
@@ -338,3 +349,8 @@ hr.new4 {
         line-height: 3em;
       }
     }
+
+    hr {
+      color:#7a7a7a;
+      border-color: #7a7a7a;
+  }

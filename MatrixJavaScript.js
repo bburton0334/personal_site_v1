@@ -80,7 +80,7 @@ function reset() {
 }
 
 function setup() {
-	createCanvas(innerWidth, innerHeight);
+	createCanvas(outerWidth, outerHeight);
 	reset();
 	frameRate(20);
 	colorMode(HSB);
@@ -96,7 +96,7 @@ function draw() {
 }
 
 function windowResized() {
-	resizeCanvas(innerWidth, innerHeight);
+	resizeCanvas(outerWidth, outerHeight);
 	//background(90);
 	reset();
 }
